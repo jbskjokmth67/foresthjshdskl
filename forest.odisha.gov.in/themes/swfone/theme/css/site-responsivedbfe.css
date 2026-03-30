@@ -1,0 +1,765 @@
+
+/**Responsive Design for SWF website**/
+
+@media screen and (min-width: 1920px){
+    .content-right .container{max-width: 100%;}
+        
+}
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .events-details{
+        padding: 2px;
+        height: 192px;
+    }
+    .events-details+a{
+        position: unset;
+        margin-bottom: 24px;
+    }
+	.know-more-news{ position: absolute !important;
+    margin-bottom: 0px !important;
+    left: 75.5% !important;}
+	
+    .latest-news-title{
+        padding: 0 20px;
+    }
+    .p-l-none {
+        padding-left: 0px;
+        padding-right: 0;
+    }
+    .five-t-sec .sec-first{
+        width: 100%;
+    }
+    .five-t-sec {
+        background: none;
+        min-height: 95px;
+        display: block;
+        position: relative;
+    }
+    .five-t-sec .sec-first .five-t-listing{
+        display: block;
+        transform: translateY(0px);
+        text-align: center;
+    }
+    .five-t-sec .sec-first .five-t-logo{
+        float: none;
+        width: 100%;
+        background-color: #3b96c3;
+        display: flex;
+        justify-content: center;
+    }
+    .five-t-listing{
+        padding: 10px 0;
+    }
+    .five-t-listing li {
+        margin: 0 7px;
+     }
+    .five-t-listing li > span{
+        width: 48px;
+        padding: 3px 0px;
+    }
+    .five-t-listing li a{
+        font-size: 103%;
+        font-weight: 600;
+    }
+    .five-t-sec .sec-second{
+        width: 100%;
+        background-color: #033454;
+        padding: 27px 0;
+    }
+    .five-t-sec .sec-second a{
+        font-weight: 600;   
+    }
+    .transport-box {
+        margin-bottom: 21px;
+    }
+    .minister-col img{
+        right: -100px;
+    }    
+    .odisha-profile-col .know-more {
+        margin-bottom: 15px;
+        float: right;
+    }
+    .odisha-investment .nav-pills li.nav-item {
+        width: 50%;
+        float: left;
+    }
+    .odisha-investment .nav-pills .nav-item .nav-link {
+        width: 50%;
+		display: table-cell;
+    }
+    .social-feeds-iframe-data iframe{
+        width: 95%;
+        margin: 0;
+        margin-top: 5px;
+    }
+    .advrt-portlet img{
+        width: 100%;
+    }
+    .heading-container {
+    max-width: 100%;
+    min-width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    transform: translate(-50%, -36%);
+    padding: 0 20px;
+}
+.inner-banner-image {
+    position: relative;
+    min-height: 100px;
+}
+.inner-banner-image img {
+    .inner-banner-image img {
+    width: 100%;
+    height: 105px;
+}
+}
+.inner-banner-image h1{
+    font-size: 20px;
+        margin: 0;
+}
+.inner-banner-image .breadcrumb{
+    padding: 0;
+}
+.content-right {
+    padding: 40px 20px;
+    width: 67%;
+}
+.know-more {
+    margin-bottom: 0px;
+}
+.logo span:nth-child(2) {
+        padding-top: 8px;
+    white-space: normal;
+}
+.modal-search{
+    right: 32%;
+    top: 32px;
+}
+.modal-search form {
+    background-color: #434343;
+}
+.js-drupal-fullcalendar .fc-header-toolbar{
+    justify-content: end;
+    padding-left: 0;
+}
+
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+
+    
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+ /**Homepage Popup banner**/
+.modalconent{width:90%;}  
+
+  .logo span:nth-child(2) {
+        font-size: 42%;
+   }
+  .header-container .minister > a {
+        margin-top: 22px;
+   }
+    .news-runner {
+        position: relative;
+        width: 100%;
+    }
+    .p-l-none {
+        padding-left: 0px;
+        padding-right: 0;
+    }
+    .five-t-sec .sec-first{
+        width: 100%;
+    }
+    .five-t-sec {
+        background: none;
+        min-height: 95px;
+        display: block;
+        position: relative;
+    }
+    .five-t-sec .sec-first .five-t-listing{
+        display: block;
+        transform: translateY(0px);
+        text-align: center;
+    }
+    .five-t-sec .sec-first .five-t-logo{
+        float: none;
+        width: 100%;
+        background-color: #3b96c3;
+        display: flex;
+        justify-content: center;
+    }
+    .five-t-listing{
+        padding: 10px 0;
+    }
+    .five-t-listing li {
+        margin: 0 7px;
+     }
+    .five-t-listing li > span{
+        width: 48px;
+        padding: 10px 0px;
+    }
+    .five-t-listing li a{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .five-t-sec .sec-second{
+        width: 100%;
+        background-color: #033454;
+        padding: 27px 0;
+    }
+    .five-t-sec .sec-second a{
+        font-weight: 600;   
+    }
+    .odisha-profile-col .know-more{
+        margin-bottom: 15px;
+        float: right;
+    }
+    .investment-link-three img{
+        width: 100%;
+    }
+    .training-box{
+        height: 330px;
+    }
+    .banner-wrapper .js-view-dom-id-64f4832479d15a7e3d272392a82ec82400202891cb92be96b0bc62ff3cfa3ccf{
+        display: flex;
+        justify-content: space-around;
+    }
+    .latest-news-title{
+        padding: 0 20px;
+    }
+    .events-details{
+        padding: 20px;
+        height: 277px;
+    }
+    .events-details+a{
+        position: unset;
+        margin-bottom: 24px;
+    }
+    .transport-box {
+        margin-bottom: 21px;
+    }
+    .social-feeds-iframe-data iframe {
+        width: auto;
+    
+    }
+    .social-feeds-iframe-data ul{}
+    .social-feeds-iframe-data ul li{
+        width: 50%;
+    }
+    ul.inner-expend{ 
+    }
+    .wrapper.nice-menu .sf-accordion-toggle a:before{
+        content: '';
+        display: block;
+        background: url(../images/menu.png) no-repeat;
+        width: 40px;
+        height: 40px;
+        margin-top: 5px;
+
+    }
+    .wrapper.nice-menu .sf-accordion-toggle a span{
+        display: none;
+    }
+    .content-left {
+        width: 100%;
+    }
+    .content-left{
+        height: auto;
+    }
+    .inner-expend:before{
+        top: -9px;
+        left: 56%;
+    }
+    ul.inner-expend > div {
+        min-width: 100%;
+    }
+    ul.inner-expend > div .views-row{
+        
+    }
+    .sec-left-link{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    ul.inner-expend > div + div{
+        
+    }
+    ul.inner-expend > div + div div.views-row .sec-right-link{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .inner-expend h4{
+        width: 52%;
+    }
+    .advrt-portlet img{
+        width: 100%;
+    }
+	
+.transport-box .cmcrevenue ul.cmncation > li{width:48%;}	
+.transport-box .cmcrevenue ul.cmncation{height:300px;padding:0; overflow:scroll; padding-top: 20px;} 
+ul.sf-menu{
+            height: 300px;
+            overflow: scroll;
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+/**Homepage Popup banner**/
+.modalconent{width:90%;}
+
+.common-wrapper .top-header .common-left{    
+        float: none;
+        display: flex;
+        justify-content: center;
+        border-bottom: 1px solid #525252;
+    }
+    .common-right ul li{
+        border-left: 0px;
+    }
+    .common-wrapper .top-header .common-right{
+            right: 0;
+    }
+    .common-wrapper .common-container{
+        padding: 0;
+    } 
+    .logo span:nth-child(2){
+        padding-top: 15px;
+        white-space: normal;
+    }
+    .logo img{
+        width: 70px;
+    }
+    .sec-right-link{
+            width: 100%;
+                margin-top: 5px;
+    }
+    .inner-expend{
+        top: auto;
+    }
+    .header-wrapper .logo {
+        width: 100%;
+    }
+    .header-wrapper .logo span{
+        font-size: 14px;
+        display: block;
+    }
+    .header-wrapper .float-right{
+        float: none !important;
+    }
+    .header-wrapper .minister{
+        position: unset;
+    }
+    .header-wrapper .float-right .minister a{
+        float: right!important;
+        margin-right: 119px;
+        margin-top: 12px;
+    }
+    .header-wrapper .float-right .minister a span{
+        color: #6b6b6b;
+        font-size: 12px;
+    }
+    .header-wrapper .float-right .minister img{
+        width: 19%;
+        position: absolute;
+        bottom: 0;
+        right: 50px;
+    }
+    .wrapper.nice-menu .sf-accordion-toggle a:before{
+        content: '';
+        display: block;
+        background: url(../images/menu.png) no-repeat;
+        width: 40px;
+        height: 40px;
+        margin-top: 5px;
+
+    }
+    .wrapper.nice-menu .sf-accordion-toggle a span{
+        display: none;
+    }
+    
+    .modal-search {
+        max-width: 300px;
+        min-width: 300px;
+        position: absolute;
+        right: 32px;
+        top: 73px;
+        z-index: 7;
+        margin: 0;
+        min-height: 45px;
+        display: none;
+    }
+    
+    #news-slider .flex-direction-nav .flex-prev {
+        opacity: 1 !important;
+        left: 0;
+        top: -27px;
+    }
+    #news-slider .flex-direction-nav .flex-next {
+        right: 0;
+        top: -27px;
+        text-align: right;
+        opacity: 1 !important;
+    }
+    .banner-wrapper .flexslider .slides img {
+        height: auto;
+    }
+    .banner-wrapper .col-md-3{
+        min-height: 242px;
+        padding: 0 42px;
+    }
+    .five-t-sec .sec-first{
+        width: 100%;
+    }
+    .five-t-sec {
+        background: none;
+        min-height: 95px;
+        display: block;
+        position: relative;
+    }
+    .five-t-sec .sec-first .five-t-listing{
+        display: block;
+        transform: translateY(0px);
+        text-align: center;
+    }
+    .five-t-sec .sec-first .five-t-logo{
+        float: none;
+        width: 100%;
+        background-color: #3b96c3;
+        display: flex;
+        justify-content: center;
+    }
+    .five-t-listing{
+        padding: 10px 0;
+    }
+    .five-t-listing li {
+        margin: 0 7px;
+     }
+    .five-t-listing li > span{
+        width: 48px;
+        padding: 10px 0px;
+    }
+    .five-t-listing li a{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .five-t-sec .sec-second{
+        width: 100%;
+        background-color: #033454;
+        padding: 27px 0 0 0;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .five-t-sec .sec-second a{
+        font-weight: 600;
+        min-width: 93px;
+        text-align: center;   
+    }
+    .odisha-profile .transport-box ul.quicktabs-tabs{
+        display: flex;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        margin: 0;
+        min-height: auto;
+        background-color: #e6f5fc;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 10px;
+    }
+    .odisha-profile .transport-box>div{
+        display: block;
+        width: 100%;
+    }
+    .custom-tabs-menu .quicktabs-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .custom-tabs-menu ul.quicktabs-tabs li.active a:after{
+        content: unset;
+        position: absolute;
+        top: 39px;
+        left: 20px;
+        width: 0;
+        height: 0;
+        border: 10px solid transparent;
+        border-top: 7px solid #3996c1;
+    }
+        .custom-tabs-menu .quicktabs-wrapper .quicktabs-main{
+        padding-left: 20px;
+    }   
+    .odisha-profile .block-views-blockminister-block-2{
+        padding: 15px 3px;
+    }
+    .odisha-profile {
+        padding: 45px 0 0 0;
+    }
+    .news-runner{
+        position: relative;
+        width: 100%;
+    }
+    .events-details {
+        padding: 5px 0px 12px 24px;
+        height: 277px;
+    }
+    .p-l-none {
+        padding-left: 0px;
+        padding-right: 0;
+    }
+    .sec-second ul{
+        float: none;
+    }
+    .sec-second ul li{
+        display: block;
+        min-width: 150px;
+        min-height: 80px;
+    }
+    .investment-link-one ul{
+        position: unset;
+    }
+    .investment-link-one ul li a{
+        padding: 5px 6px;
+    }
+    .odisha-investment .nav-pills li.nav-item{
+        width: 50%;
+        float: left;
+    }
+    .odisha-investment .nav-pills .nav-item .nav-link{
+        width: 100%;
+        padding: 6px 72px;
+    }
+    .video-gallery iframe{
+        height: auto;
+    }
+    .content-left {
+        display: table-cell;
+        min-width: 250px;
+        width: 100%;
+        height: auto;
+        box-shadow: 10px 0 5px -2px #ececec;
+        background: none;
+        float: left;
+            overflow: scroll;
+    }
+    .content-left nav{
+        padding-top: 0px;
+    }
+    .sec-second ul {
+        float: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .content-right {
+        display: inline-block;
+        background: url(../images/content-bg.png) no-repeat top right;
+        width: 100%;
+    }
+    .social-feeds-iframe-data iframe {
+        margin-left: 0px;
+    }
+    .listing-details+a{
+        margin-bottom: 20px;
+    }
+    .knw-mrg{
+        bottom: 4px;
+    }
+    .sec-second>div:nth-child(1){
+        margin-bottom: 15px;
+    }
+    .sec-second>div:nth-child(2){
+        
+    }
+    .inner-expend:before{
+        top: -9px;
+        left: 48px;
+    }
+    ul.inner-expend > div {
+        min-width: 100%;
+    }
+    ul.inner-expend > div .views-row{
+        
+    }
+    .sec-left-link{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    ul.inner-expend > div + div{
+        
+    }
+    ul.inner-expend > div + div div.views-row .sec-right-link{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .inner-expend h4{
+        width: 52%;
+    }
+    .path-publication .views-row span.field-content:hover a {
+        padding-right: 0px;
+    }
+    .path-publication .views-row span.field-content a:after {
+        content: '';
+    }
+    .path-publication .views-row span.field-content {
+        border-radius: 2px;
+        background-color: transparent;
+        border: none;
+        padding: 0; 
+        transition: all 0.5s;
+    }
+    .path-publication .views-row span.field-content a{
+        background-color: #7ebeff6e;
+        padding: 10px 5px;
+    }
+    .content-left{
+        padding-bottom: 0px;
+    }
+    .album-list .item-list li{
+        width: 100%;
+        text-align: center;
+    }
+    .page-video-gallery .item-list ul > li{
+        width: 100%;
+    }
+    .contact-us-page{
+        flex-direction: column;
+    }
+    .contact-us-page .map {
+        width: 100%;
+    }
+    .advrt-portlet img{
+        width: 100%;
+    }
+    .heading-container {
+    max-width: 100%;
+    min-width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    transform: translate(-50%, -36%);
+    padding: 0 20px;
+}
+.inner-banner-image {
+    position: relative;
+    min-height: 100px;
+}
+.inner-banner-image img {
+    width: 100%;
+    height: 105px;
+}
+
+.inner-banner-image h1{
+    font-size: 20px;
+        margin: 0;
+}
+.inner-banner-image .breadcrumb{
+    padding: 0;
+}
+.path-about-us .views-exposed-form .form-item{
+    width: 70%;
+}
+.path-media .innerpage-wrapper .content ul li,.page-node-type-album .innerpage-wrapper .content ul li{
+        list-style-image: none;
+}
+.page-node-type-album .grid-photo .item-list ul li img{
+    height: 40px;
+}
+.page-node-type-album .list-photo .item-list ul li {
+    height: 40px;
+}
+.page-node-type-album .list-photo .item-list ul li img {
+    height: 40px;
+}
+.imp-links{
+        margin-top: 15px;
+}
+.footer-inline-menu ul li{
+        padding: 6px 26px;
+    background-color: #0f5ead;
+    margin: 4px 3px;
+}
+ul.sf-menu > li:hover:before {
+    width: 0;
+}
+.odisha-profile .transport-box ul.quicktabs-tabs{
+    overflow: scroll;
+}
+.js-drupal-fullcalendar .fc-header-toolbar .fc-left button,
+ .js-drupal-fullcalendar .fc-header-toolbar .fc-right button{
+    padding: 0 7px!important;
+}
+.path-webform #block-swfone-content {
+    background: url(../images/feedback-bg.png) no-repeat;
+    background-position: 48% 88%;
+    background-size: 113%;
+    min-height: 765px;
+}
+.modal-search form {
+    background-color: #434343;
+}
+.transport-box .cmcrevenue ul.cmncation > li{width:100%;}
+.transport-box .cmcrevenue ul.cmncation{height:300px;padding:0; overflow:scroll; padding-top: 20px;}
+
+}
+
+@media (max-width: 940px){
+    .scroll-table1 {
+        overflow: hidden !important;
+        overflow-x: scroll !important;
+    }
+}
+@media (max-width: 768px) {
+    .scroll-table1 {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        display: block;
+        float: left;
+    }
+    #block-swfone-content .views-exposed-form {
+        min-height: 150px;
+    }
+    }
