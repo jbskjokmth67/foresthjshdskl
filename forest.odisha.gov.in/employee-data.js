@@ -25,7 +25,7 @@ const LOCAL_EMPLOYEE_DB = {
         circle: "Bhubaneswar Forest Circle",
         joiningDate: "24.06.2026",
         venue: "Forest Range Office Jambu, Mahakalapada, Kendrapara, Odisha 754224",
-        photo: "Q7xcr6.jpg", 
+        photo: "Q7xcr6.jpeg", 
         logs: [
             { period: "June 2026 (Current)", days: "24 Working Days", hours: "192 Patrol Hours Logged" },
             { period: "May 2026", days: "27 Working Days", hours: "216 Patrol Hours Logged" },
