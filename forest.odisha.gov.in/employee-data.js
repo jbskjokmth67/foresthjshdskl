@@ -31,5 +31,21 @@ const LOCAL_EMPLOYEE_DB = {
             { period: "May 2026", days: "27 Working Days", hours: "216 Patrol Hours Logged" },
             { period: "April 2026", days: "24 Working Days", hours: "192 Patrol Hours Logged" }
         ]
+    },
+     "FG202603": {
+        password: "J4X9R1",
+        name: "Nirakara Padhiari",
+        position: "Forest Guard (Group 'C' Non-Gazetted)",
+        cadre: "Odisha Sub-ordinate Forest Service (Territorial)",
+        division: "Kendrapara Mangrove Forest Division",
+        circle: "Bhubaneswar Forest Circle",
+        joiningDate: "24.06.2026",
+        venue: "Forest Range Office Jambu, Mahakalapada, Kendrapara, Odisha 754224",
+        photo: "oxterd.png", 
+        logs: [
+            { period: "June 2026 (Current)", days: "24 Working Days", hours: "192 Patrol Hours Logged" },
+            { period: "May 2026", days: "27 Working Days", hours: "216 Patrol Hours Logged" },
+            { period: "April 2026", days: "24 Working Days", hours: "192 Patrol Hours Logged" }
+        ]
     }
 };
